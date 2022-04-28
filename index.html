@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!-- ICS20-PWA-Template-HTML -->
+  <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="PWA-Template" />
+    <meta name="keywords" content="mths, ics2o" />
+    <meta name="author" content="Titus diceman" />
+    <meta name="theme-color" content="#FFFFFF" />
+    <title>Template</title>
+    <link rel="canonical" href="https://Titus-diceman.github.io/ICS2O-unit-5-03-html/" />
+    <link rel="manifest" href="/ICS20-PWA-Template/site.webmanifest" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- None blocking for Lighthouse report -->
+    <!-- https://stackoverflow.com/questions/32759272/how-to-load-css-asynchronously -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" media="none" onload="if(media!='all')media='all'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"></noscript>
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.deep_purple-indigo.min.css" media="none" onload="if(media!='all')media='all'"><noscript><link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-purple.min.css"></noscript>
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+  </head>
+  <body>
+    <h1><b> Movie age rating</b></h1>
+    <br>
+    <h4>please select one of the buttons that correlates with your age </h4>
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <script src="./js/script.js"></script>
+    <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="over17">
+  <input type="radio" id="over17" class="mdl-radio__button" name="age" value="1" >
+  <span class="mdl-radio__label">17 or over</span>
+</label>
+    <br>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="over13">
+  <input type="radio" id="over13" class="mdl-radio__button" name="age" value="2" >
+  <span class="mdl-radio__label">13 or over</span>
+</label>
+    <br>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="over5">
+  <input type="radio" id="over5" class="mdl-radio__button" name="age" value="3" >
+  <span class="mdl-radio__label">5 or over</span>
+</label>
+<br> 
+    <!-- Accent-colored raised button with ripple -->
+<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+  show allowed moive rating
+</button>
+  </body>
+</html>
