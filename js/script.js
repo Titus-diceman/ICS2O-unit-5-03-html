@@ -18,17 +18,21 @@
  */
 function buttonClicked() {
 
-  var over17 = document.getElementById
-  var over17 = document.getElementById 
-  var over17 = document.getElementById
+  var over17 = document.getElementById(over17)
+  var over13 = document.getElementById(over13)
+  var over5 = document.getElementById(over5)
 
 
-if (over17.checked >= "red") {
-  document.getElementById("age")inner.html
-} else if (colourOfLight == "yellow") {
-document.getElementById("age")inner.html
-} else if (colourOfLight == "green") {
- document.getElementById("age")inner.html 
-} else {
- 
+  if (over17.checked >= true) {
+    document.getElementById("age").innerHTML =
+    "you can see R rated movies"
+  
+  } else if (over13.checked >= true) {
+    document.getElementById("age").innerHTML =
+    "you can see PG rated movies"
+  
+  } else if (over5.checked >= true) {
+    document.getElementById("age").innerHTML =
+    "you can see G rated movies"
+  }
 }
