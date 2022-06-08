@@ -14,13 +14,13 @@
 }
 
 /**
- * This function displays an xxx.
+ * This function displays the code for moive rating.
  */
 function buttonClicked() {
 
-  var over17 = document.getElementById(over17)
-  var over13 = document.getElementById(over13)
-  var over5 = document.getElementById(over5)
+  var over17 = document.getElementById("over17")
+  var over13 = document.getElementById("over13")
+  var over5 = document.getElementById("over5")
 
 
   if (over17.checked >= true) {
@@ -34,5 +34,9 @@ function buttonClicked() {
   } else if (over5.checked >= true) {
     document.getElementById("age").innerHTML =
     "you can see G rated movies"
+ 
+  } else {
+    document.getElementById("age").innerHTML = 
+      "You can't watch any moives kiddo"
   }
 }
